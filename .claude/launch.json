@@ -1,11 +1,15 @@
 {
   "version": "0.0.1",
+  "autoPort": false,
   "configurations": [
     {
       "name": "svelte-dev",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--", "--port", "5173"],
-      "port": 5173
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\npm.cmd",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5273", "--strictPort"],
+      "port": 5273,
+      "env": {
+        "PATH": "C:\\Program Files\\nodejs;C:\\WINDOWS\\system32;C:\\WINDOWS"
+      }
     }
   ]
 }
